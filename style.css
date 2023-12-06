@@ -1,0 +1,389 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+
+h1{
+	text-align: center;
+	font-size: 4em;
+}
+
+
+/* CSS for Tablets */
+@media only sreen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+
+	}
+}
+/* CSS for Smartphons */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+	background-image: ;
+	
+}
+header{
+	font-family:Georgia, serif;
+}
+.home-photo{
+	float: right;
+	max-width: 50%;
+	height: auto;
+	margin: 50px 0 10px 20px;
+	margin-top: 2px;
+}
+h1{
+	font-family: Georgia, cursive;
+	color: dark ;
+	font-size: 60px;
+	text-align: left;
+	padding: 5px;
+	border-bottom: solid black;
+}
+h2{
+	font-family: Georgia, sans-serif;
+	color: violet;
+	font-size: 30px;
+	text-align: left;
+	text-shadow: 2px,2px,2px black;
+	text-shadow: solid black;
+
+}
+h3{
+	font-size: 2em;
+	color: violet;
+}
+.logo {
+	max-width: 90px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+
+
+}
+#home-hero{
+	background-image: url(images/beach2.png);
+	height: 193px;
+	background-size: cover;
+
+
+}
+#home-hero h1{
+	font-family: 'Dancing Script',cursive;
+	text-align: center;
+	color: violet;
+	text-shadow: solid black;
+	margin: 0;
+	padding: 60px 0;
+	text-shadow: 2px 2px 2px black;
+
+}
+#home-photo h1{
+	font-family: 'Dancing Script',cursive;
+	text-align: center;
+	color: cyan;
+	margin: 0;
+	text-shadow: 2px 2px 2px black;
+	border: none;
+
+}
+#home-hero img{
+	text-align: center;
+}
+.myButton{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+
+
+}
+.button{
+	margin-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+style{
+	max-width: 100;
+	height: 250px;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    font-size: 16px;
+    height: 15vh;
+    border-radius: 3rem;
+    width: 560px;
+
+
+}
+
+.navbar {
+    margin: auto;
+    padding: 0.5rem 2rem;
+    background: lightblue;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-image: url("images/beach.png");
+    text-shadow: solid black;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link, .drop-down li {
+    list-style: none;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.drop-down {
+    position: absolute;
+    padding: 0.5rem 0;
+    margin: 0.5rem -0.5rem;
+    background: antiquewhite;
+    color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    font-size: 12px;
+    display: none;
+}
+nav a:hover{
+	color: black;
+}
+
+.nav-link:hover {
+    background-color: greenyellow;
+    color: #fff];
+    border-radius: 0.5rem;
+}
+
+.services:hover .drop-down {
+    display: block;
+}
+
+.services a {
+    display: flex;
+    align-items: center;
+}
+
+.services .dropdown-icon {
+    font-size: 10px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+
+.services:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+.drop-down li:hover {
+    background: black;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.fa{
+  font-size: 1.3em;
+  margin: 0 auto;
+}
+footer h4{
+  font-size: 1.5em;
+  padding-left: 200px;
+  text-align: center;
+}
+footer h5{
+  font-size: 1.5em;
+}
+
+footer{
+  margin: 0 auto;
+}
+footer blockquote{
+  margin:0 auto;
+  padding-left: 200px;
+  text-align: center;
+}
+body small{
+  text-align: center;
+}
+footer{
+	background-image: url(images/blue.png);
+	font-family: 'Dancing Script',cursive;
+	color: darksalmon;
+	text-shadow: solid black;
+	margin: 0;
+	text-shadow: 2px 2px 2px black;
+}
+body{
+	background-color: lightcyan;
+	background-image: url(images/cyan.png);
+	background-size: cover;
+}
+.foot-link:hover{
+	color: yellow;
+}
+preview img{margin-left: auto;
+
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:100px;
+    margin: 3px 10px 10px 0;
+    border: solid black 4px ;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+footer ul li{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background: linear-gradient(315deg, #026e2f, #0ce680);
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.wrapper .envelop:hover,
+.wrapper .envelop:hover .tooltip,
+.wrapper .envelop:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+
